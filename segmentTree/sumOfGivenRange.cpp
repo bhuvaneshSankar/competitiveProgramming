@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//in short number of nodes in segment tree is 2*(2powh)-1 where h is the height of the tree
 int calculateSizeOfArray(int n)
 {
     if (__builtin_popcount(n) == 1)
